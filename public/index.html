@@ -4,7 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Playfair:opsz@5..1200&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Petemoss&family=Playfair+Display:ital@1&family=Playfair:opsz@5..1200&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   <title>Document</title>
 </head>
 
@@ -336,52 +343,284 @@
         </div>
       </section>
 
+      <hr class="separator" />
+
       <section class="slider">
-      <!-- Slideshow container -->
-      <div class="slideshow-container">
+        <!-- Swiper -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
 
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-          <img src="assets/img/bagues/bague_001_01.jpg" style="width:100%">
-          <div class="text">Caption Text</div>
+            <div class="swiper-slide">
+              <img src="assets/img/broches/broche_001_01.jpg" alt="">
+              <div class="overlay-slide">
+                <div class="slide-title">Broche</div>
+                <div class="slide-price"><span class="price">48</span> euros</div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/braceletes/bracelet_001_01.jpg" alt="">
+              <div class="overlay-slide">
+                <div class="slide-title">Bracelet</div>
+                <div class="slide-price"><span class="price">36</span> euros</div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/bagues/bague_001_01.jpg" alt="">
+              <div class="overlay-slide">
+                <div class="slide-title">Bague</div>
+                <div class="slide-price"><span class="price">23,50</span> euros</div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="mySlides fade">
-          <img src="assets/img/braceletes/bracelet_001_01.jpg" style="width:100%">
-          <div class="text">Caption Two</div>
+        <div class="testimonial">
+          <div class="testimonial-text">
+            <div class="message">
+              Toutes mes créations sont uniques, réalisées par moi-même dans mon atelier avec soin et amour, reflétant
+              mon
+              engagement envers l'originalité et la qualité artisanale
+              <div class="signature">Anna</div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <hr class="separator" />
+
+      <section class="cards-container">
+
+        <div class="card">
+          <div class="card-img" style="background-image:url('assets/img/bagues/bague_001_01.jpg');">
+            <div class="overlay">
+              <div class="overlay-content">
+                <a class="hover" href="#!">Voir l'article</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-content">
+            <a href="#!">
+              <h2>Bague</h2>
+              <p>Taile : 18</p>
+              <p>Prix : 32,00 euros</p>
+            </a>
+          </div>
         </div>
 
-        <div class="mySlides fade">
-          <img src="assets/img/broches/broche_001_01.jpg" style="width:100%">
-          <div class="text">Caption Three</div>
+        <div class="card">
+          <div class="card-img"
+            style="background-image:url('assets/img/bucles_doreilles/boucles_d_oreilles_001_01.jpg');">
+            <div class="overlay">
+              <div class="overlay-content">
+                <a href="#!">Voir l'article</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-content">
+            <a href="#!">
+              <h2>Boucles d'oreilles</h2>
+              <p>Dimenciones : </p>
+              <p>Prix : 26 euros</p>
+            </a>
+          </div>
         </div>
 
-        <!-- Next and previous buttons -->
-        <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div> -->
-      <br>
+        <div class="card">
+          <div class="card-img" style="background-image:url('assets/img/braceletes/bracelet_001_01.jpg');">
+            <div class="overlay">
+              <div class="overlay-content">
+                <a href="#!">Voir l'article</a>
+              </div>
+            </div>
+          </div>
 
-      <!-- The dots/circles -->
-      <!-- <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span> -->
-      </div>
-      <div class="slider-aside">
-        lmbomb
-      </div>
-    </section>
+          <div class="card-content">
+            <a href="#!">
+              <h2>Bracelet</h2>
+              <p>Dimenciones : </p>
+              <p>Prix : 40 euros</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background-image:url('assets/img/broches/broche_001_01.jpg');">
+            <div class="overlay">
+              <div class="overlay-content">
+                <a href="#!">Voir l'article</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-content">
+            <a href="#!">
+              <h2>Broche</h2>
+              <p>Dimenciones : </p>
+              <p>Prix : 40 euros</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img"
+            style="background-image:url('assets/img/colliers_pendetifs/collier_pendetif_001_01.jpg');">
+            <div class="overlay">
+              <div class="overlay-content">
+                <a href="#!">Voir l'article</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-content">
+            <a href="#!">
+              <h2>Collier-pendetif</h2>
+              <p>Dimenciones : </p>
+              <p>Prix : 40 euros</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background-image:url('assets/img/epingles/epingle_001_01.jpg');">
+            <div class="overlay">
+              <div class="overlay-content">
+                <a href="#!">Voir l'article</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-content">
+            <a href="#!">
+              <h2>Epingle</h2>
+              <p>Dimenciones : </p>
+              <p>Prix : 40 euros</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background-image:url('assets/img/parures/parure_001_01.jpg');">
+            <div class="overlay">
+              <div class="overlay-content">
+                <a href="#!">Voir l'article</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-content">
+            <a href="#!">
+              <h2>Parure</h2>
+              <p>Dimenciones : </p>
+              <p>Prix : 40 euros</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background-image:url('assets/img/pendetifs/pendentif_001_01.jpg');">
+            <div class="overlay">
+              <div class="overlay-content">
+                <a href="#!">Voir l'article</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-content">
+            <a href="#!">
+              <h2>Pendetif</h2>
+              <p>Dimenciones : </p>
+              <p>Prix : 40 euros</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background-image:url('assets/img/pendetifs/pendentif_001_01.jpg');">
+            <div class="overlay">
+              <div class="overlay-content">
+                <a href="#!">Voir l'article</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-content">
+            <a href="#!">
+              <h2>Pendetif</h2>
+              <p>Dimenciones : </p>
+              <p>Prix : 40 euros</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background-image:url('assets/img/pendetifs/pendentif_001_01.jpg');">
+            <div class="overlay">
+              <div class="overlay-content">
+                <a href="#!">Voir l'article</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-content">
+            <a href="#!">
+              <h2>Pendetif</h2>
+              <p>Dimenciones : </p>
+              <p>Prix : 40 euros</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background-image:url('assets/img/pendetifs/pendentif_001_01.jpg');">
+            <div class="overlay">
+              <div class="overlay-content">
+                <a href="#!">Voir l'article</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-content">
+            <a href="#!">
+              <h2>Pendetif</h2>
+              <p>Dimenciones : </p>
+              <p>Prix : 40 euros</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background-image:url('assets/img/pendetifs/pendentif_001_01.jpg');">
+            <div class="overlay">
+              <div class="overlay-content">
+                <a href="#!">Voir l'article</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-content">
+            <a href="#!">
+              <h2>Pendetif</h2>
+              <p>Dimenciones : </p>
+              <p>Prix : 40 euros</p>
+            </a>
+          </div>
+        </div>
+      </section>
 
     </main>
   </div>
 
   <!-- NAVIGATION PANNEL -->
 
-
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="https://kit.fontawesome.com/78197913c0.js" crossorigin="anonymous"></script>
   <script src="assets/js/script.js"></script>
-  <script src="assets/js/slideshow.js"></script>
+  <script src="assets/js/swiper.js"></script>
 
 </body>
 

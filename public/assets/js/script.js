@@ -95,6 +95,7 @@ $(document).ready(function() {
 
 // SLIDESHOW
 
-  
+// Initialize Swiper
+
 
   // SLIDESHOW END
