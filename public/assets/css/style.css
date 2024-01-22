@@ -611,29 +611,31 @@ body._touch .menuList>li._active .menuArrow {
 .slider {
 	width: 100%;
 	margin: 30px 0;
-	/* padding-left: 30px; */
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	align-items: center;
 }
-
 .swiper-container {
 	position: relative;
-	width: 300px;
+	width: 700px;
 	height: 300px;
 }
-
 .swiper-slide {
 	margin: 0 auto;
 	position: relative;
 }
-
+.image-container {
+	display: inline-block;
+}
 .swiper-slide img {
-	width: 300px;
+	width: 100%;
 	height: 300px;
 }
-
+.slide-text {
+	display: inline-block;
+	border: 1px solid red;
+}
 .overlay-slide {
 	background-color: rgba(0, 0, 0, 0.5);
 	width: 100%;
@@ -643,7 +645,6 @@ body._touch .menuList>li._active .menuArrow {
 	transform: translateY(-50%);
 	margin-top: -35px;
 }
-
 .slide-title {
 	position: relative;
 	font-size: 22px;
@@ -652,18 +653,15 @@ body._touch .menuList>li._active .menuArrow {
 	color: #fff;
 	margin-top: 10px;
 }
-
 .slide-price {
 	font-size: 18px;
 	color: #fff;
 	text-align: center;
 	margin-top: 5px;
 }
-
 .price {
 	font-family: 'Playfair Display', serif;
 }
-
 .testimonial {
 	display: flex;
 	justify-content: center;
@@ -673,7 +671,6 @@ body._touch .menuList>li._active .menuArrow {
 	flex: 1;
 	height: 300px;
 	}
-
 .testimonial-text {
 	box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.3);
 	display: flex;
@@ -685,11 +682,9 @@ body._touch .menuList>li._active .menuArrow {
 	width: 100%;
 	height: 100%
 }
-
 .message {
 	margin-top: 80px;
 }
-
 .signature {
 	text-align: right;
 	padding-right: 30px;
