@@ -1,25 +1,14 @@
-let swiper = new Swiper('.swiper-container', {
-
-  a11y: {
-    prevSlideMessage: 'Previous slide',
-    nextSlideMessage: 'Next slide',
-
-  },
-
-  autoplay: {
-    delay: 1500,
-    reverseDirection: false,
-  },
-
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
   slidesPerView: 1,
   spaceBetween: 40,
 
-  effect: 'fade',
-   fadeEffect: {
-    crossFade: true
+  autoplay: {
+    delay: 1500,
   },
 
-  /* parallax: true, */
-
+  parallax: true,
 
 });
