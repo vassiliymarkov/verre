@@ -750,12 +750,44 @@ body._touch .menuList>li._active .menuArrow {
 /* SLIDER END */
 
 /* FOOTER */
-
 footer {
-	margin-top: 50px;
-	height: 300px;
-	text-align: center;
-	background-color: #b4f6ff;
+	margin-top: 30px;
+	padding-bottom: 50px;
 }
-
+.links-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+}
+.left-column a, .right-column a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #202927;
+	font-family: 'jaapokki-regular';
+}
+.right-column {
+	text-align: right;
+}
+.footer-link {
+	margin-bottom: 5px;
+}
+.copyright {
+	margin-top: 30px;
+	font-family: 'jaapokki-regular';
+	font-size: 18px;
+	color: #202927;
+	text-align: center;
+}
+.copyright p {
+	margin-bottom: 7px;
+}
+#realisation {
+	margin-top: 10px;
+	color: #5c5e5d;
+	font-size: 16px;
+}
+.copyright a {
+	text-decoration: none;
+	color: #5c5e5d;
+}
 /* FOOTER END */
