@@ -29,7 +29,7 @@ const isMobile = {
 if (isMobile.any()) {
 	document.body.classList.add('_touch');
 
-	let menuArrows = document.querySelectorAll('.menuArrow');
+	let menuArrows = document.querySelectorAll('.menu_arrow');
 	if (menuArrows.length > 0) {
 		for (let index = 0; index < menuArrows.length; index++) {
 			const menuArrow = menuArrows[index];
@@ -44,8 +44,8 @@ if (isMobile.any()) {
 }
 
 // Меню бургер
-const iconMenu = document.querySelector('.menuIcon');
-const menuBody = document.querySelector('.menuBody');
+const iconMenu = document.querySelector('.menu_icon');
+const menuBody = document.querySelector('.menu_body');
 if (iconMenu) {
 	iconMenu.addEventListener("click", function (e) {
 		document.body.classList.toggle('_lock');
@@ -54,9 +54,8 @@ if (iconMenu) {
 	});
 }
 
-
 // Прокрутка при клике
-const menuLinks = document.querySelectorAll('.menuLink[data-goto]');
+/* const menuLinks = document.querySelectorAll('.menu_link[data-goto]');
 if (menuLinks.length > 0) {
     menuLinks.forEach(menuLink => {
         menuLink.addEventListener("click", onMenuLinkClick);
@@ -80,7 +79,7 @@ if (menuLinks.length > 0) {
             e.preventDefault();
         }
     }
-}
+} */
 
 $(document).ready(function() {
 	
@@ -93,9 +92,3 @@ $(document).ready(function() {
 
 
 
-// SLIDESHOW
-
-// Initialize Swiper
-
-
-  // SLIDESHOW END
