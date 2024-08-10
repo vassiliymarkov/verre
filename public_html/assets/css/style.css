@@ -796,11 +796,11 @@ main {
 }
 
 .workshop_text h2 {
-	font-size: calc(16px + (30 - 16) * ((100vw - 320px) / (1920 - 320)));
+	font-size: calc(16px + (46 - 16) * ((100vw - 320px) / (1920 - 320)));
 }
 
 .workshop_text p {
-	font-size: calc(14px + (24 - 14) * ((100vw - 320px) / (1920 - 320)));
+	font-size: calc(14px + (36 - 14) * ((100vw - 320px) / (1920 - 320)));
 }
 
 .slider {
