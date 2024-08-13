@@ -54,41 +54,9 @@ if (iconMenu) {
 	});
 }
 
-// Прокрутка при клике
-/* const menuLinks = document.querySelectorAll('.menu_link[data-goto]');
-if (menuLinks.length > 0) {
-    menuLinks.forEach(menuLink => {
-        menuLink.addEventListener("click", onMenuLinkClick);
-    });
+/* ZOOM OF PRODUCT PHOTOES */
 
-    function onMenuLinkClick(e) {
-        const menuLink = e.target;
-        if (menuLink.dataset.goto && document.querySelector(menuLink.dataset.goto)) {
-            const gotoBlock = document.querySelector(menuLink.dataset.goto);
-
-            if (iconMenu.classList.contains('_active')) {
-                document.body.classList.remove('_lock');
-                iconMenu.classList.remove('_active');
-                menuBody.classList.remove('_active');
-            }
-
-            gotoBlock.scrollIntoView({
-                behavior: "smooth",
-                block: "start"
-            });
-            e.preventDefault();
-        }
-    }
-} */
-
-$(document).ready(function() {
-	
-	$('.card').delay(1800).queue(function(next) {
-		$(this).removeClass('hover');
-		$('a.hover').removeClass('hover');
-		next();
-	});
+$('.zoom').ezPlus({
+    zoomType: 'inner',
+    cursor: 'crosshair'
 });
-
-
-
