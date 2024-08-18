@@ -2,6 +2,15 @@
 include "elems/header.php";
 ?>
 
+<div class="category_title">CATEGORY TITLE</div>
+
+<label for="sort_price" id="sort">trier par prix</label>
+<select name="sort_price" id="sort_price">
+  <option value="asc">pas trié</option>
+  <option value="asc">prix croissant</option>
+  <option value="desc">prix décroissant</option>
+</select>
+
 <section class="cards-container">
 
   <div class="card">
@@ -573,10 +582,6 @@ include "elems/header.php";
     </div>
   </div>
 </section>
-
-<hr class="separator" />
-
-</main>
 
 <?php
 include "elems/footer.php";

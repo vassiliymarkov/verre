@@ -1,3 +1,7 @@
+<hr class="separator" />
+
+</main>
+
 <footer>
     <div>
         <h3 class="footer_title">
@@ -17,8 +21,7 @@
         <div class="footer_links"><a href="#">Conditions d'utilisation</a></div>
         <div class="footer_links"><a href="#">Conditions de vente</a></div>
         <div class="footer_links"><a href="#">Politique de retour</a></div>
-        <div class="footer_links"><a href="#">Politique de confidentialité</a></div>
-        <div class="footer_links"><a href="#">Politique de cookies</a></div>
+        <div class="footer_links"><a href="#">Politique de confidentialité<br>et d'utilisation des cookies</a></div>
     </div>
     <div>
         <div>

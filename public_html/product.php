@@ -40,32 +40,58 @@ include "elems/header.php";
         <hr class="separator_short" />
     </div>
 
-    <section class="similar_products">
+    <section class="cards-container">
 
-        <div class="similar_product">
-            <div class="similar_product_image">
-                <img src="assets/img/broches/libellule_03.webp" alt="">
+        <div class="card">
+            <div class="card-img" style="background-image:url('assets/img/broches/libellule_03.webp');">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <a class="hover" href="#!">Voir l'article</a>
+                    </div>
+                </div>
             </div>
-            <p>Broche Libellule transparente bleue</p>
-        </div>
-        <div class="similar_product">
-            <div class="similar_product_image">
-                <img src="assets/img/broches/papillon_01.webp" alt="">
+            <div class="card-content">
+                <a href="#!">
+                    <h2>Broche Libellule transparente bleue</h2>
+                    <p>32,00 euros</p>
+                </a>
             </div>
-            <p>Broche Papillon marron</p>
         </div>
-        <div class="similar_product">
-            <div class="similar_product_image">
-                <img src="assets/img/broches/papillon_02.webp" alt="">
+
+        <div class="card">
+            <div class="card-img" style="background-image:url('assets/img/broches/papillon_01.webp');">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <a class="hover" href="#!">Voir l'article</a>
+                    </div>
+                </div>
             </div>
-            <p>Broche Papillon bleue</p>
+            <div class="card-content">
+                <a href="#!">
+                    <h2>Broche Papillon marron</h2>
+                    <p>32,00 euros</p>
+                </a>
+            </div>
         </div>
+
+        <div class="card">
+            <div class="card-img" style="background-image:url('assets/img/broches/papillon_02.webp');">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <a class="hover" href="#!">Voir l'article</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-content">
+                <a href="#!">
+                    <h2>Broche Papillon bleue</h2>
+                    <p>32,00 euros</p>
+                </a>
+            </div>
+        </div>
+
     </section>
 
-    <hr class="separator" />
-
-</main>
-
-<?php
-include "elems/footer.php";
-?>
+    <?php
+    include "elems/footer.php";
+    ?>
