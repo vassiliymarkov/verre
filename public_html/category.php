@@ -2,7 +2,7 @@
 include "elems/header.php";
 ?>
 
-<div class="category_title">CATEGORY TITLE</div>
+<div class="category_title">bijoux</div>
 
 <label for="sort_price" id="sort">trier par prix</label>
 <select name="sort_price" id="sort_price">
@@ -182,91 +182,6 @@ include "elems/header.php";
       </a>
     </div>
   </div>
-
-  <!--         <div class="card">
-          <div class="card-img" style="background-image:url('assets/img/pendetifs/pendentif_001_01.jpg');">
-            <div class="overlay">
-              <div class="overlay-content">
-                <a href="#!">Voir l'article</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="card-content">
-            <a href="#!">
-              <h2>Pendetif</h2>
-              <p>40 euros</p>
-            </a>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-img" style="background-image:url('assets/img/pendetifs/pendentif_001_01.jpg');">
-            <div class="overlay">
-              <div class="overlay-content">
-                <a href="#!">Voir l'article</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="card-content">
-            <a href="#!">
-              <h2>Pendetif</h2>
-              <p>40 euros</p>
-            </a>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-img" style="background-image:url('assets/img/pendetifs/pendentif_001_01.jpg');">
-            <div class="overlay">
-              <div class="overlay-content">
-                <a href="#!">Voir l'article</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="card-content">
-            <a href="#!">
-              <h2>Pendetif</h2>
-              <p>40 euros</p>
-            </a>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-img" style="background-image:url('assets/img/pendetifs/pendentif_001_01.jpg');">
-            <div class="overlay">
-              <div class="overlay-content">
-                <a href="#!">Voir l'article</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="card-content">
-            <a href="#!">
-              <h2>Pendetif</h2>
-              <p>40 euros</p>
-            </a>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-img" style="background-image:url('assets/img/pendetifs/pendentif_001_01.jpg');">
-            <div class="overlay">
-              <div class="overlay-content">
-                <a href="#!">Voir l'article</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="card-content">
-            <a href="#!">
-              <h2>Pendetif</h2>
-              <p>40 euros</p>
-            </a>
-          </div>
-        </div> -->
 </section>
 
 <section class="slider">

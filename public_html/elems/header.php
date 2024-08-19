@@ -96,7 +96,7 @@
                         </li>
                       </ul>
                     </li>
-                    <li><a href="" class="menu_link special">NOUVEAUTES</a></li>
+                    <!-- <li><a href="" class="menu_link special">NOUVEAUTES</a></li> -->
                     <li>
                       <a href="" class="menu_link special">BONS PLANS</a>
                     </li>
